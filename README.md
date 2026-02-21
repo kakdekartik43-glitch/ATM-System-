@@ -53,4 +53,19 @@ int main()
                     break;
 
                 case 4:
-                    printf("Thank you
+                    printf("Thank you");
+break;
+
+                default:
+                    printf("Invalid Choice!\n");
+            }
+
+        } while(choice != 4);
+    } 
+    else 
+    {
+        printf("Incorrect PIN!\n");
+    }
+
+    return 0;
+}
